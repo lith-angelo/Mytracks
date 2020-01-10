@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>src/btn/change-white.png</file>
+        <file>src/btn/edit-white.png</file>
+        <file>src/btn/information-white.png</file>
+        <file>src/btn/keep-white.png</file>
+        <file>src/btn/mail-white.png</file>
+        <file>src/btn/return.jfif</file>
+        <file>src/btn/see-white.png</file>
+        <file>src/btn/upload-white.png</file>
+        <file>src/btn/exit.png</file>
+    </qresource>
+</RCC>
