@@ -19,3 +19,7 @@ Qt开发——Mytracks旅行分享项目
 
 * 在res/test中附带三张有exif信息的测试图片。
 
+运行效果：
+![image](https://github.com/whsyourdaddy/Mytracks/raw/master/login.png)
+![image](https://github.com/whsyourdaddy/Mytracks/raw/master/main_menu.png)
+![image](https://github.com/whsyourdaddy/Mytracks/raw/master/track.png)
