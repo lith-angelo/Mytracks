@@ -7,7 +7,7 @@ Signup::Signup(QWidget *parent) :
 {
     ui->setupUi(this);
     //背景图片
-        QPixmap bkgnd("E:/fucking_program/src/bgp/bgp3.png");
+        QPixmap bkgnd(":/image/bgp/bgp21.png");
         bkgnd = bkgnd.scaled(this->size(), Qt::IgnoreAspectRatio);
         QPalette palette;
         palette.setBrush(QPalette::Background, bkgnd);

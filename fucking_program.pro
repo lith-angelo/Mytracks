@@ -43,4 +43,8 @@ FORMS    += mainwindow.ui \
 RC_FILE += app.rc
 
 RESOURCES += \
-    picture.qrc
+    res/res.qrc
+
+CONFIG+=resources_big
+
+DISTFILES +=

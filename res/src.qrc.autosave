@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>bgp/bgp21.png</file>
+        <file>btn/change-white.png</file>
+        <file>btn/edit-white.png</file>
+        <file>btn/exit.png</file>
+        <file>btn/information-white.png</file>
+        <file>btn/keep-white.png</file>
+        <file>btn/mail-white.png</file>
+        <file>btn/return.jfif</file>
+        <file>btn/see-white.png</file>
+        <file>btn/upload-white.png</file>
+    </qresource>
+    <qresource prefix="/html">
+        <file>C:/Users/97202/Desktop/0102code/map.html</file>
+    </qresource>
+</RCC>

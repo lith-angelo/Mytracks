@@ -36,7 +36,6 @@ private slots:
 private:
     Ui::Main_menu *ui;
     QString name;
-    //QString id;
     Mysql *mysql;
 };
 

@@ -26,7 +26,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image: url(:/new/prefix1/src/btn/exit.png);</string>
+    <string notr="true">border-image: url(:/image/btn/exit.png);</string>
    </property>
    <property name="text">
     <string/>
@@ -42,7 +42,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image: url(:/new/prefix1/src/btn/edit-white.png);</string>
+    <string notr="true">border-image: url(:/image/btn/edit-white.png);</string>
    </property>
    <property name="text">
     <string/>
@@ -58,7 +58,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image: url(:/new/prefix1/src/btn/see-white.png);</string>
+    <string notr="true">border-image: url(:/image/btn/see-white.png);</string>
    </property>
    <property name="text">
     <string/>
@@ -74,7 +74,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image: url(:/new/prefix1/src/btn/information-white.png);</string>
+    <string notr="true">border-image: url(:/image/btn/information-white.png);</string>
    </property>
    <property name="text">
     <string/>

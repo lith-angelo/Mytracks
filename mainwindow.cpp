@@ -6,7 +6,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {   //背景图片
     ui->setupUi(this);
-    QPixmap bkgnd("E:/fucking_program/src/bgp/bgp21.png");
+    QPixmap bkgnd(":/image/bgp/bgp21.png");
     bkgnd = bkgnd.scaled(this->size(), Qt::IgnoreAspectRatio);
     QPalette palette;
     palette.setBrush(QPalette::Background, bkgnd);

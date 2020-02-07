@@ -7,13 +7,14 @@ Main_menu::Main_menu(QString name,QWidget *parent) :
 {
     ui->setupUi(this);
 
-    QPixmap bkgnd("E:/fucking_program/src/bgp/bgp1.png");
+    QPixmap bkgnd(":/image/bgp/bgp1.png");
     bkgnd = bkgnd.scaled(this->size(), Qt::IgnoreAspectRatio);
     QPalette palette;
     palette.setBrush(QPalette::Background, bkgnd);
     this->setPalette(palette);
 
-    ui->webView->load(QUrl("file:///C:/Users/97202/Desktop/0102code/map.html")); //导入URL。能否将html文件以资源文件添加进入
+    //ui->webView->load(QUrl("file:///C:/Users/97202/Desktop/0102code/map.html")); //导入URL。能否将html文件以资源文件添加进入
+    ui->webView->load(QUrl("qrc:/html/html/map.html")); //导入URL。能否将html文件以资源文件添加进入
 
 
     this->name=name;

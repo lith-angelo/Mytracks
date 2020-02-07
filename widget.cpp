@@ -17,7 +17,7 @@ Widget::Widget(QString name,QWidget *parent) :
     m_nRadius = 1000;//默认画圆半径
     m_strCity = "黄冈";
 
-    ui->webView->load(QUrl("file:///C:/Users/97202/Desktop/0102code/map.html")); //导入URL。能否将html文件以资源文件添加进入
+    ui->webView->load(QUrl("qrc:/html/html/map.html")); //导入URL。能否将html文件以资源文件添加进入
 
     //webView控件加载完成会发送信号，连接信号，槽实现
     connect(ui->webView,&QWebView::loadFinished,this,&Widget::finished);
@@ -58,7 +58,7 @@ void Widget::getInfo()
 //    {
 //        QMessageBox::information(NULL, QObject::tr("Lng&Lat"), strList.at(i));
 //    }
-    QString filePath = "C:/Users/97202/Desktop/0102code/ExifDemo/image";
+    QString filePath = "./";
     QString strFile =  QFileDialog::getOpenFileName(0,"上传图片",filePath); //打开指定目录
 
 
@@ -75,9 +75,9 @@ void Widget::getInfo()
     const char* picPath = strFile.toUtf8().data();
     qDebug()<<picPath;
 
-    //绝对路径转相对路径，JS函数中接收绝对路径无法显示图片
+    //绝对路径转相对路径，自行转换！问题：JS对应函数中接收绝对路径无法显示图片
     QString relativePath = strFile.replace("C:/Users/97202/Desktop/0102code/","");
-    qDebug()<<relativePath.toUtf8().data();
+    qDebug()<<strFile.toUtf8().data();
 
     FILE *fp = fopen(picPath,"rb"); //C语言读写文件，以二进制的读文件
 
